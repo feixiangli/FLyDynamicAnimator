@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044718C61B56EDD8007F85C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044718C51B56EDD8007F85C7 /* main.m */; };
+		044718C91B56EDD8007F85C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 044718C81B56EDD8007F85C7 /* AppDelegate.m */; };
+		044718CC1B56EDD8007F85C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044718CB1B56EDD8007F85C7 /* ViewController.m */; };
+		044718CF1B56EDD8007F85C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044718CD1B56EDD8007F85C7 /* Main.storyboard */; };
+		044718D11B56EDD8007F85C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044718D01B56EDD8007F85C7 /* Images.xcassets */; };
+		044718D41B56EDD8007F85C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044718D21B56EDD8007F85C7 /* LaunchScreen.xib */; };
+		044718E01B56EDD8007F85C7 /* FLyDynamicAnimatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044718DF1B56EDD8007F85C7 /* FLyDynamicAnimatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		044718DA1B56EDD8007F85C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044718B81B56EDD8007F85C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044718BF1B56EDD8007F85C7;
+			remoteInfo = FLyDynamicAnimator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044718C01B56EDD8007F85C7 /* FLyDynamicAnimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLyDynamicAnimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		044718C41B56EDD8007F85C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044718C51B56EDD8007F85C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		044718C71B56EDD8007F85C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		044718C81B56EDD8007F85C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		044718CA1B56EDD8007F85C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		044718CB1B56EDD8007F85C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		044718CE1B56EDD8007F85C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044718D01B56EDD8007F85C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		044718D31B56EDD8007F85C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		044718D91B56EDD8007F85C7 /* FLyDynamicAnimatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLyDynamicAnimatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044718DE1B56EDD8007F85C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044718DF1B56EDD8007F85C7 /* FLyDynamicAnimatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLyDynamicAnimatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044718BD1B56EDD8007F85C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044718D61B56EDD8007F85C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044718B71B56EDD8007F85C7 = {
+			isa = PBXGroup;
+			children = (
+				044718C21B56EDD8007F85C7 /* FLyDynamicAnimator */,
+				044718DC1B56EDD8007F85C7 /* FLyDynamicAnimatorTests */,
+				044718C11B56EDD8007F85C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		044718C11B56EDD8007F85C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044718C01B56EDD8007F85C7 /* FLyDynamicAnimator.app */,
+				044718D91B56EDD8007F85C7 /* FLyDynamicAnimatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044718C21B56EDD8007F85C7 /* FLyDynamicAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				044718C71B56EDD8007F85C7 /* AppDelegate.h */,
+				044718C81B56EDD8007F85C7 /* AppDelegate.m */,
+				044718CA1B56EDD8007F85C7 /* ViewController.h */,
+				044718CB1B56EDD8007F85C7 /* ViewController.m */,
+				044718CD1B56EDD8007F85C7 /* Main.storyboard */,
+				044718D01B56EDD8007F85C7 /* Images.xcassets */,
+				044718D21B56EDD8007F85C7 /* LaunchScreen.xib */,
+				044718C31B56EDD8007F85C7 /* Supporting Files */,
+			);
+			path = FLyDynamicAnimator;
+			sourceTree = "<group>";
+		};
+		044718C31B56EDD8007F85C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				044718C41B56EDD8007F85C7 /* Info.plist */,
+				044718C51B56EDD8007F85C7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		044718DC1B56EDD8007F85C7 /* FLyDynamicAnimatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				044718DF1B56EDD8007F85C7 /* FLyDynamicAnimatorTests.m */,
+				044718DD1B56EDD8007F85C7 /* Supporting Files */,
+			);
+			path = FLyDynamicAnimatorTests;
+			sourceTree = "<group>";
+		};
+		044718DD1B56EDD8007F85C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				044718DE1B56EDD8007F85C7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044718BF1B56EDD8007F85C7 /* FLyDynamicAnimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044718E31B56EDD8007F85C7 /* Build configuration list for PBXNativeTarget "FLyDynamicAnimator" */;
+			buildPhases = (
+				044718BC1B56EDD8007F85C7 /* Sources */,
+				044718BD1B56EDD8007F85C7 /* Frameworks */,
+				044718BE1B56EDD8007F85C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLyDynamicAnimator;
+			productName = FLyDynamicAnimator;
+			productReference = 044718C01B56EDD8007F85C7 /* FLyDynamicAnimator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		044718D81B56EDD8007F85C7 /* FLyDynamicAnimatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044718E61B56EDD8007F85C7 /* Build configuration list for PBXNativeTarget "FLyDynamicAnimatorTests" */;
+			buildPhases = (
+				044718D51B56EDD8007F85C7 /* Sources */,
+				044718D61B56EDD8007F85C7 /* Frameworks */,
+				044718D71B56EDD8007F85C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044718DB1B56EDD8007F85C7 /* PBXTargetDependency */,
+			);
+			name = FLyDynamicAnimatorTests;
+			productName = FLyDynamicAnimatorTests;
+			productReference = 044718D91B56EDD8007F85C7 /* FLyDynamicAnimatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044718B81B56EDD8007F85C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Fly;
+				TargetAttributes = {
+					044718BF1B56EDD8007F85C7 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					044718D81B56EDD8007F85C7 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 044718BF1B56EDD8007F85C7;
+					};
+				};
+			};
+			buildConfigurationList = 044718BB1B56EDD8007F85C7 /* Build configuration list for PBXProject "FLyDynamicAnimator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044718B71B56EDD8007F85C7;
+			productRefGroup = 044718C11B56EDD8007F85C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044718BF1B56EDD8007F85C7 /* FLyDynamicAnimator */,
+				044718D81B56EDD8007F85C7 /* FLyDynamicAnimatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044718BE1B56EDD8007F85C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044718CF1B56EDD8007F85C7 /* Main.storyboard in Resources */,
+				044718D41B56EDD8007F85C7 /* LaunchScreen.xib in Resources */,
+				044718D11B56EDD8007F85C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044718D71B56EDD8007F85C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044718BC1B56EDD8007F85C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044718CC1B56EDD8007F85C7 /* ViewController.m in Sources */,
+				044718C91B56EDD8007F85C7 /* AppDelegate.m in Sources */,
+				044718C61B56EDD8007F85C7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044718D51B56EDD8007F85C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044718E01B56EDD8007F85C7 /* FLyDynamicAnimatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		044718DB1B56EDD8007F85C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044718BF1B56EDD8007F85C7 /* FLyDynamicAnimator */;
+			targetProxy = 044718DA1B56EDD8007F85C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		044718CD1B56EDD8007F85C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044718CE1B56EDD8007F85C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		044718D21B56EDD8007F85C7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044718D31B56EDD8007F85C7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		044718E11B56EDD8007F85C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		044718E21B56EDD8007F85C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044718E41B56EDD8007F85C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FLyDynamicAnimator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		044718E51B56EDD8007F85C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FLyDynamicAnimator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		044718E71B56EDD8007F85C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FLyDynamicAnimatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLyDynamicAnimator.app/FLyDynamicAnimator";
+			};
+			name = Debug;
+		};
+		044718E81B56EDD8007F85C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FLyDynamicAnimatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLyDynamicAnimator.app/FLyDynamicAnimator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044718BB1B56EDD8007F85C7 /* Build configuration list for PBXProject "FLyDynamicAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044718E11B56EDD8007F85C7 /* Debug */,
+				044718E21B56EDD8007F85C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044718E31B56EDD8007F85C7 /* Build configuration list for PBXNativeTarget "FLyDynamicAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044718E41B56EDD8007F85C7 /* Debug */,
+				044718E51B56EDD8007F85C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		044718E61B56EDD8007F85C7 /* Build configuration list for PBXNativeTarget "FLyDynamicAnimatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044718E71B56EDD8007F85C7 /* Debug */,
+				044718E81B56EDD8007F85C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044718B81B56EDD8007F85C7 /* Project object */;
+}
